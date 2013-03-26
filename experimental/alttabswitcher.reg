@@ -1,0 +1,22 @@
+Windows Registry Editor Version 5.00
+
+; # Windows Registry Defaults - Alt Tab Switcher Resizing
+; https://github.com/ticky/dotfiles
+
+; NOTE: Only known to work on Windows 7. Not necessarily a good idea, either.
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\AltTab]
+; Tweak Alt-Tab switcher sizes
+"OverlayIconPx"=dword:00000020 ; Application icons to 32 pixels
+"OverlayIconDXPx"=dword:00000000
+"OverlayIconDYPx"=dword:00000000
+"ThumbSpacingXPx"=dword:00000004
+"ThumbSpacingYPx"=dword:00000004
+"SideMarginPx"=dword:00000004
+"BottomMarginPx"=dword:0000000a
+"MinThumbSizePcent"=dword:00000064
+"MinWidthPx"=dword:0000012c
+"TopMarginPx"=dword:00000020
+"MaxThumbSizePx"=dword:000000dc
+"MaxIconSizePx"=dword:0000015e
+"TextBottomPx"=dword:000001f4

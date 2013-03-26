@@ -20,30 +20,36 @@ These tweaks operate on the system and will affect all users.
 
 These tweaks operate for the currently logged in user only.
 
-*   Adjusts Alt+Tab switcher size for larger screens
-*   Explorer defaults
-    *   Disable hover delay on taskbar previews
-    *   Show hidden files and all file extensions
-    *   Run Explorer windows in separate process
-    *   Disable Sharing Wizard
-    *   Disable Aero Peek for desktop
-    *   Large icons in taskbar
-    *   Taskbar on grouping with no label setting
-*   Start menu defaults
-    *   Show Computer as menu
-    *   Hide Network Connections
-    *   Hide Program Access and Defaults
-    *   Hide Printers
-    *   Show Downloads as link
-    *   Hide Music
-    *   Show Network as link
-    *   Show User as link
-    *   Show Pictures as link
-    *   Hide Run (You can use "search programs and files" for this anyway
-    *   Show Videos as link
-    *   Don't show Administrative Tools in the root
-    *   Hide Games
-    *   Hide Help
+* Explorer defaults
+  * Disable hover delay on taskbar previews
+  * Show hidden files and all file extensions
+  * Run Explorer windows in separate process
+  * Disable Sharing Wizard
+  * Disable Aero Peek for desktop
+  * Large icons in taskbar
+  * Taskbar on grouping with no label setting
+* Start menu defaults
+  * Show Computer as menu
+  * Hide Network Connections
+  * Hide Program Access and Defaults
+  * Hide Printers
+  * Show Downloads as link
+  * Hide Music
+  * Show Network as link
+  * Show User as link
+  * Show Pictures as link
+  * Hide Run (You can use "search programs and files" for this anyway
+  * Show Videos as link
+  * Don't show Administrative Tools in the root
+  * Hide Games
+  * Hide Help
+* Preconfigure TortoiseSVN
+  * Disable Aero glass dialogs
+  * Show `Checkout`, `Update`, `Commit`, `Log`, `Repo Browser`, `Rename`, `Delete`, `Revert`, `Clean Up`, `Branch`, `Switch` and `Merge` in top-level Explorer context menu.
+  * Auto-close if no merges, adds or deletes
+  * Always close dialogs for local operations
+  * Set fonts to Consolas
+  * Preconfigure ignores for .Net and ReSharper, as well as ignoring miscellaneous filesystem junk from Windows and OS X.
 
 ## Requirements
 
@@ -53,11 +59,11 @@ Note that many of these tweaks will operate and take effect on Windows 2000 or l
 
 ## Setup
 
-1.  Clone repository using your favoured git tool for Windows
-2.  Run each reg file from Explorer
-3.  Restart your computer
+1. Clone repository using your favoured git tool for Windows
+2. Run each reg file from Explorer
+3. Restart your computer
 
 ## Todo
 
-*   Create a bootstrapping script to run all this stuff automatically, and allow selection of user/system tweaks
-*   Maybe add version detection to conditionally enable portions of the script
+* Create a bootstrapping script to run all this stuff automatically, and allow selection of user/system tweaks
+* Maybe add version detection to conditionally enable portions of the script
